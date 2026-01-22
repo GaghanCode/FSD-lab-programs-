@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b0b0b;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #aa0000, #000000);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.card {
+    background-color: #1c1c1c;
+    width: 220px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.card h2 {
+    margin: 10px 0 5px;
+    color: #e10600;
+}
+
+.card p {
+    color: #ccc;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(225, 6, 0, 0.6);
+}
